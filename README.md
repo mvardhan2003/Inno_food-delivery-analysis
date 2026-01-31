@@ -1,72 +1,76 @@
-\# 🍽️ Food Delivery Data Analysis
+# 🍽️ Food Delivery Data Analysis
 
+## 📌 Project Overview
 
+This project performs **end-to-end data analysis** on a food delivery platform by
+**merging orders, users, and restaurant datasets** to extract meaningful
+**business and revenue insights**.
 
-\## 📌 Project Overview
+---
 
-This project analyzes a food delivery platform dataset by combining
+## 🧠 Key Insights
 
-orders, users, and restaurant information to extract business insights.
+- **Bangalore** is the **top revenue-generating city overall**
+- **Chennai** leads revenue among **Gold members**
+- **Regular + Indian cuisine** contributes the **highest total revenue**
+- **Gold members account for ~50% of total orders**
 
+---
 
+## 📊 Analysis Highlights
 
-\## 📊 Key Questions Answered
+- Revenue distribution across cities and cuisines
+- Membership-wise order and revenue analysis
+- Average Order Value (AOV) comparison
+- Restaurant rating vs revenue analysis
+- Quarterly revenue trends
 
-\- Top revenue city (overall \& Gold members)
+---
 
-\- Revenue by cuisine and membership type
+## 🛠️ Tech Stack
 
-\- Average order value (AOV)
+- **Python**
+- **Pandas**
+- **NumPy**
+- **Matplotlib / Seaborn**
+- **Jupyter Notebook**
 
-\- Orders by rating range
+---
 
-\- Quarterly revenue trends
+## 📂 Dataset Description
 
+- **orders.csv** → order-level transaction data
+- **users.json** → user details and membership information
+- **restaurants.sql** → restaurant cuisine and rating details
 
+---
 
-\## 🧠 Key Insights
+## 🔗 Data Processing
 
-\- Bangalore is the top revenue city overall
+- Datasets were combined using **Pandas merge operations**
+- One-to-many relationships were handled carefully
+- Missing user information resulted in **NaN values**
+- Aggregations were performed using **groupby & sum/mean**
 
-\- Chennai leads revenue among Gold members
+---
 
-\- Regular + Indian cuisine contributes highest revenue
+## ▶️ How to Run
 
-\- Gold members place ~50% of total orders
+1. Clone the repository
+2. Open the Jupyter Notebook
+3. Run all cells to reproduce the analysis
 
+---
 
+## 📌 Key Learnings
 
-\## 🛠️ Tech Stack
+- Handling multi-source data joins
+- Performing business-focused EDA
+- Writing clean, reproducible analysis
+- Presenting insights in a structured manner
 
-\- Python
+---
 
-\- Pandas
+## 👤 Author
 
-\- NumPy
-
-\- Matplotlib / Seaborn
-
-\- Jupyter Notebook
-
-
-
-\## 📂 Dataset
-
-\- `orders.csv`
-
-\- `users.json`
-
-\- `restaurants.sql`
-
-
-
-\## ▶️ How to Run
-
-```bash
-
-pip install -r requirements.txt
-
-jupyter notebook
-
-
-
+**Lasya Vardhan Marisetti**
