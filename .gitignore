@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual env
+venv/
+.env/
+
+# OS
+.DS_Store
+
+# Data (optional – keep large/raw files out)
+data/*.csv
+data/*.json
+data/*.sql
